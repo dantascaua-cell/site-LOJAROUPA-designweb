@@ -1,0 +1,24 @@
+PROJETO LEGACY — HTML E CSS
+
+ESTRUTURA
+- index.html: página inicial
+- catalogo.html: catálogo com quatro jaquetas
+- produto.html: detalhamento de uma jaqueta seguindo o protótipo de baixa fidelidade
+- compra.html: página de finalização com formulário de dados e escolha de pagamento
+- css/style.css: estilos compartilhados
+- imagens/: fotografias do banner e dos produtos
+
+NAVEGAÇÃO
+1. Abra index.html.
+2. Clique em uma jaqueta ou no botão do catálogo.
+3. No catálogo, clique em "Ver detalhes".
+4. Na página do produto, clique em "Adicionar ao carrinho" para abrir compra.html.
+5. Na página de compra, preencha visualmente os campos e selecione uma forma de pagamento.
+
+IMPORTANTE
+Este projeto contém somente HTML e CSS. Não há JavaScript.
+A navegação entre páginas funciona com links HTML.
+Os campos de tamanho, cor, quantidade e pagamento são controles HTML; não existe carrinho persistente nem processamento de pedido.
+O botão "Confirmar pedido" é apenas visual e não envia dados.
+Os dados de material e alguns detalhes são ilustrativos e devem ser ajustados conforme as informações reais da loja.
+Os ícones do cabeçalho e rodapé são decorativos.

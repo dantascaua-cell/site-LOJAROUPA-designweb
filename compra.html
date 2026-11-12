@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finalização de compra da Legacy.">
+    <title>Legacy | Finalizar compra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <a class="marca" href="index.html" aria-label="Legacy - página inicial">
+                <span class="marca-simbolo" aria-hidden="true">♛</span>
+                <span class="marca-nome">LEGACY</span>
+            </a>
+
+            <nav class="navegacao" aria-label="Navegação principal">
+                <a class="link-menu" href="index.html">Início</a>
+                <a class="link-menu" href="catalogo.html">Categorias</a>
+                <a class="link-menu ativo" href="compra.html">Carrinho</a>
+                <a class="link-menu" href="index.html#sobre">Sobre</a>
+            </nav>
+
+            <div class="acoes-cabecalho" aria-label="Ícones decorativos">
+                <span class="icone-cabecalho" aria-hidden="true">♙</span>
+                <span class="icone-cabecalho" aria-hidden="true">♡</span>
+                <span class="icone-cabecalho" aria-hidden="true">♧</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="faixa-titulo-produto">
+            <div class="container">
+                <nav class="migalhas migalhas-esquerda" aria-label="Você está aqui">
+                    <a href="index.html">Início</a>
+                    <span aria-hidden="true">/</span>
+                    <a href="produto.html">Produto</a>
+                    <span aria-hidden="true">/</span>
+                    <span>Finalizar compra</span>
+                </nav>
+
+                <div class="titulo-compra">
+                    <p class="etiqueta-secao">LEGACY</p>
+                    <h1>FINALIZAR COMPRA</h1>
+                    <p>Preencha seus dados para concluir o pedido.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-checkout">
+            <div class="container checkout-layout">
+
+                <!-- FORMULÁRIO -->
+                <form class="formulario-checkout">
+
+                    <section class="grupo-checkout">
+                        <div class="titulo-grupo-checkout">
+                            <span>01</span>
+                            <div>
+                                <h2>Dados pessoais</h2>
+                                <p>Informe os dados de quem receberá o pedido.</p>
+                            </div>
+                        </div>
+
+                        <div class="grade-campos">
+                            <label class="campo-formulario campo-largo">
+                                Nome completo
+                                <input type="text" name="nome" placeholder="Digite seu nome completo">
+                            </label>
+
+                            <label class="campo-formulario">
+                                E-mail
+                                <input type="email" name="email" placeholder="seuemail@exemplo.com">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Telefone
+                                <input type="tel" name="telefone" placeholder="(00) 00000-0000">
+                            </label>
+                        </div>
+                    </section>
+
+                    <section class="grupo-checkout">
+                        <div class="titulo-grupo-checkout">
+                            <span>02</span>
+                            <div>
+                                <h2>Endereço de entrega</h2>
+                                <p>Informe onde deseja receber sua jaqueta.</p>
+                            </div>
+                        </div>
+
+                        <div class="grade-campos">
+                            <label class="campo-formulario">
+                                CEP
+                                <input type="text" name="cep" placeholder="00000-000">
+                            </label>
+
+                            <label class="campo-formulario campo-largo">
+                                Endereço
+                                <input type="text" name="endereco" placeholder="Rua, avenida...">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Número
+                                <input type="text" name="numero" placeholder="Número">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Complemento
+                                <input type="text" name="complemento" placeholder="Apartamento, casa...">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Bairro
+                                <input type="text" name="bairro" placeholder="Seu bairro">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Cidade
+                                <input type="text" name="cidade" placeholder="Sua cidade">
+                            </label>
+
+                            <label class="campo-formulario">
+                                Estado
+                                <select name="estado">
+                                    <option value="">Selecione</option>
+                                    <option>AC</option><option>AL</option><option>AP</option>
+                                    <option>AM</option><option>BA</option><option>CE</option>
+                                    <option>DF</option><option>ES</option><option>GO</option>
+                                    <option>MA</option><option>MT</option><option>MS</option>
+                                    <option>MG</option><option>PA</option><option>PB</option>
+                                    <option>PR</option><option>PE</option><option>PI</option>
+                                    <option>RJ</option><option>RN</option><option>RS</option>
+                                    <option>RO</option><option>RR</option><option>SC</option>
+                                    <option>SP</option><option>SE</option><option>TO</option>
+                                </select>
+                            </label>
+                        </div>
+                    </section>
+
+                    <section class="grupo-checkout">
+                        <div class="titulo-grupo-checkout">
+                            <span>03</span>
+                            <div>
+                                <h2>Forma de pagamento</h2>
+                                <p>Escolha como deseja pagar.</p>
+                            </div>
+                        </div>
+
+                        <fieldset class="opcoes-pagamento">
+                            <legend class="texto-escondido">Selecione uma forma de pagamento</legend>
+
+                            <label class="opcao-pagamento">
+                                <input type="radio" name="pagamento" value="pix">
+                                <span class="pagamento-icone">◆</span>
+                                <span>
+                                    <strong>Pix</strong>
+                                    <small>Pagamento via transferência instantânea</small>
+                                </span>
+                            </label>
+
+                            <label class="opcao-pagamento">
+                                <input type="radio" name="pagamento" value="cartao">
+                                <span class="pagamento-icone">▤</span>
+                                <span>
+                                    <strong>Cartão</strong>
+                                    <small>Crédito ou débito</small>
+                                </span>
+                            </label>
+
+                            <label class="opcao-pagamento">
+                                <input type="radio" name="pagamento" value="boleto">
+                                <span class="pagamento-icone">▥</span>
+                                <span>
+                                    <strong>Boleto</strong>
+                                    <small>Pagamento por boleto bancário</small>
+                                </span>
+                            </label>
+                        </fieldset>
+
+                        <p class="nota-prototipo">
+                            Nesta versão acadêmica, as opções de pagamento são demonstrativas.
+                            Nenhuma cobrança será realizada.
+                        </p>
+                    </section>
+
+                    <div class="acoes-formulario">
+                        <a class="link-voltar" href="produto.html">← Voltar ao produto</a>
+                        <button class="botao botao-escuro" type="button">
+                            Confirmar pedido
+                        </button>
+                    </div>
+
+                    <p class="nota-prototipo">
+                        Protótipo visual: o formulário ainda não envia nem armazena os dados.
+                    </p>
+                </form>
+
+                <!-- RESUMO DO PEDIDO -->
+                <aside class="resumo-pedido">
+                    <h2>Resumo do pedido</h2>
+
+                    <div class="produto-resumo">
+                        <img src="imagens/jaqueta-legacy-classic.jpg" alt="Jaqueta Legacy Classic">
+                        <div>
+                            <h3>Jaqueta Legacy Classic</h3>
+                            <p>Preta · Tamanho a escolher</p>
+                            <strong>R$ 499,90</strong>
+                        </div>
+                    </div>
+
+                    <div class="linha-resumo">
+                        <span>Subtotal</span>
+                        <span>R$ 499,90</span>
+                    </div>
+
+                    <div class="linha-resumo">
+                        <span>Entrega</span>
+                        <span>A calcular</span>
+                    </div>
+
+                    <div class="linha-resumo total-resumo">
+                        <strong>Total</strong>
+                        <strong>R$ 499,90</strong>
+                    </div>
+
+                    <p class="texto-resumo">
+                        O valor da entrega não está incluído neste protótipo.
+                    </p>
+
+                    <a class="link-detalhes" href="catalogo.html">Continuar comprando →</a>
+                </aside>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape rodape-completo">
+        <div class="container rodape-colunas">
+            <div>
+                <h2>MENU DO FOOTER</h2>
+                <a href="index.html">Início</a>
+                <a href="catalogo.html">Produtos</a>
+                <a href="index.html#sobre">Sobre</a>
+            </div>
+
+            <div>
+                <h2>LINKS</h2>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="compra.html">Carrinho</a>
+                <a href="produto.html">Detalhes do produto</a>
+            </div>
+
+            <div>
+                <h2>FORMA DE PAGAMENTO</h2>
+                <p>Pix · Cartão · Boleto</p>
+            </div>
+
+            <div>
+                <h2>SIGA A GENTE</h2>
+                <p>Instagram · TikTok</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
